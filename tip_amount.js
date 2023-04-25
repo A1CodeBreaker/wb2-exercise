@@ -1,10 +1,11 @@
-//bill*.2
-//variables
-var bill = 100;
-var tip=.02;
+//output The tip on a $x food bill is y
+var bill, tip;
 
-//operation
-var tipamount = bill * tip;
+//sample data
+bill = 100;
 
-//print
-console.log('The rip on a $100 food bill is', tipAmount)
+//calc
+tip = bill *.2;
+
+//output
+console.log("The tip on a " + bill + " food bill is " + tip);
