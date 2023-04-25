@@ -1,10 +1,10 @@
-//1*w
-//Variables
-var length = 25
-var width =  4
+// output The area of the rectangle is x
+var length, width, area;
 
-//operation
-var area = length * width;
+//sample data
+length = 10;
+width = 5;
+area = length * width;
 
-//print
-console.log('the area of the rectangle is', area)
+//output
+console.log("The area of the rectangle is " + area);
