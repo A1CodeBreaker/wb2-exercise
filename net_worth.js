@@ -1,10 +1,17 @@
-//total assets = total Liabilities
-//variables
-var assets = 100000;
-var libabilities = 50000;
+//output "Your net worth is x"
+var totalAssets, totalLiabilities, netWorth ;
 
-//operations
-var networth = assets - libabilities
+//sample input
+totalAssets = 100000;
+totalLiabilities = 50000;
+netWorth = totalAssets - totalLiabilities;
+var netWorthPrint = netWorth.toString()
 
-//print
-console.log("Your net worth is ", networth)
+
+// for (i=0; i < netWorth % 3; i -=3) {
+//    netWorthPrint = netWorthPrint.slice(-1, -4 + i) + "," ;
+// }
+
+//output
+console.log("Your net worth is $" + netWorth);
+// console.log("$" +netWorthPrint)
