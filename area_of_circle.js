@@ -1,9 +1,11 @@
-//a=pie r(2)
-//variables
-var radius = 4
+//output The area of a circle with radius x is y
+//math.pi for pi
+var area, radius;
+ //sample data
+ radius = 4;
 
-//operation
-var area = Math.pi * radius**2
+ //calc
+ area = Math.PI * radius ** 2;
 
-//print
-console.log('The aera of a circle with radius 4 is', area)
+ //output
+ console.log("The area of a circle with radius " + radius + " is " + area);
