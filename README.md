@@ -1,2 +1,2 @@
-# wb2-exercise
+wb2-exercise
 Workbook for basic JS excercises
